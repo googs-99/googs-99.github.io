@@ -1,9 +1,27 @@
-style.css
+
 
 
 :root {
-
+--table-color: forestgreen;
+--row-bg-color:honeydew;
+font-family: Calibri, Myriad;
 }
+
+
 #my-resume {
-border: 2px solid var(#my-resume);
+border: 2px solid var(--table-color);
+text-align: center;
+height: 200px;
+width: 400px;
+}
+#my-resume caption{
+    text-transform: capitalize;
+    background-color: var(--table-color);
+    color: white;
+    padding: 10px;
+}
+
+#my-resume tr:nth-child(even){
+    background-color: var(--row-bg-color);
+    
 }
