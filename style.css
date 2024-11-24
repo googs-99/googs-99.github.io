@@ -19,6 +19,7 @@ width: 400px;
     background-color: var(--table-color);
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 #my-resume tr:nth-child(even){
