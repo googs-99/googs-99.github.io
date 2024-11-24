@@ -2,7 +2,7 @@
 
 
 :root {
---table-color: forestgreen;
+--table-color: rgb(34, 45, 139);
 --row-bg-color:honeydew;
 font-family: Calibri, Myriad;
 }
@@ -23,5 +23,5 @@ width: 400px;
 
 #my-resume tr:nth-child(even){
     background-color: var(--row-bg-color);
-    
+
 }
