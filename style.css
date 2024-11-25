@@ -19,6 +19,9 @@ height: 200px;
 width: 400px;
 table-layout:center;
 background-image: "dragon.jpg";
+margin-left: auto;
+margin-right: auto;
+
 }
 #my-resume caption{
     text-transform: capitalize;
