@@ -5,24 +5,42 @@
 --table-color: rgb(34, 45, 139);
 --row-bg-color:honeydew;
 font-family: Calibri, Myriad;
+--font-color1:rgb(246, 7, 7);
+--font-color2:rgb(234, 155, 8);
 }
 
 
 #my-resume {
 border: 2px solid var(--table-color);
+margin: 20px;
+padding: 1px;
 text-align: center;
 height: 200px;
 width: 400px;
+table-layout:center;
+background-image: "dragon.jpg";
 }
 #my-resume caption{
     text-transform: capitalize;
     background-color: var(--table-color);
-    color: white;
     padding: 10px;
     text-align: center;
 }
 
 #my-resume tr:nth-child(even){
     background-color: var(--row-bg-color);
+    color: var(--font-color1);
 
 }
+#my-resume tr:nth-child(odd){
+    color: var(--font-color2)
+}
+span{
+    text-transform: capitalize, bold;
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+
+
