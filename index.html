@@ -54,7 +54,8 @@
                     <th>Description and duties</th>
                     <th>dates</th>
             </tr>
-            <tr>
+
+            <tr class="part-time coaching">
                 <td>Premier Gymnastics</td>
                 <td>I learned advanced alternative althletic movement often known as Parkour or Freerunning as a hobby. I then 
                     learned advanced coaching and spotting methods leading to being the coodinator for the parkour
@@ -65,7 +66,7 @@
                      <td>september 2014-febuary 2018</td>
                      <td>Part time highschool into college</td>
             </tr>
-            <tr>
+            <tr class="part-time coaching">
                 <td>FitNest</td>
                 <td>I used many of the skills I leared from Premier Gymnastics but incorporated them in a setting from the 
                     popular TV show American Ninja Warrior but was hired as a manager directly in charge of many different
@@ -74,7 +75,7 @@
                  <td>March 2018-March 2020</td>
                  <td>Part time college</td>
             </tr>
-            <tr>
+            <tr class="part-time coaching">
                 <td>Vital Personal Training</td>
                 <td>Vital Personal Training is my first real shot at
                      entrepenourship and wont be my last as I
@@ -87,7 +88,7 @@
                 </td>
             </tr>
 
-            <tr>
+            <tr class="full-time">
                 <td >hardscape creations</td>
                 <td>Help lay paver patios</td>
                 <td>summer 2016</td>
@@ -95,13 +96,59 @@
             <tr>
                 
             </tr>
-            <tr>New Earth Farm And Goods </tr>
+            <tr class="full-time">New Earth Farm And Goods </tr>
 
 
             </tr>
                
 
             </table>
+            <script>
+
+                var partTime = document.getElementsByClassName("part-time");
+                var fullTime = document.getElementsByClassName("full-time");
+
+                //When user checks or unchecks a box for full-time jobs, do this... 
+                
+                ftCheckboxChecked = true;
+                
+                if (ftCheckboxChecked == true) {
+                    for (var i = 0; i < fullTime.length; i++) {
+                        fullTime[i].style.display = "block";
+                    }
+                }
+                else {
+                    for (var i = 0; i < fullTime.length; i++) {
+                        fullTime[i].style.display = "none";
+                    }
+                }
+
+
+                //When user checks or unchecks a box for part-time jobs, do this... 
+
+                ptCheckboxChecked = true;
+                
+                if (ptCheckboxChecked == true) {
+                    for (var i = 0; i < partTime.length; i++) {
+                        partTime[i].style.display = "block";
+                    }
+                }
+                else {
+                    for (var i = 0; i < partTime.length; i++) {
+                        partTime[i].style.display = "none";
+                    }
+                }
+
+
+
+
+            </script>
+
+            </body>
+    </html>
+     
+<!-- 
+
             <table>
                 <tr>
                     <th>Full Time Job</th>
@@ -115,10 +162,10 @@
                     <td> August 2017~ - March 2021</td>
                 </tr>
             </table>
-            </body>
-    </html>
-     
+    
 <table>
     
     </tr>
 </table>
+
+-->
